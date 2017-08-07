@@ -8,20 +8,80 @@
 
 /* Begin PBXBuildFile section */
 		060770851DEB805700E494BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060770841DEB805700E494BB /* AppDelegate.swift */; };
-		060770871DEB805700E494BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060770861DEB805700E494BB /* ViewController.swift */; };
 		0607708A1DEB805700E494BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 060770881DEB805700E494BB /* Main.storyboard */; };
 		0607708C1DEB805700E494BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0607708B1DEB805700E494BB /* Assets.xcassets */; };
 		0607708F1DEB805700E494BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0607708D1DEB805700E494BB /* LaunchScreen.storyboard */; };
+		060A3BAF1E147F6F003A8C4A /* ShopClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060A3BAE1E147F6F003A8C4A /* ShopClient.swift */; };
+		060A3BB11E148A90003A8C4A /* ListShopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060A3BB01E148A90003A8C4A /* ListShopTableViewController.swift */; };
+		060A3BB31E148F01003A8C4A /* ListShopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060A3BB21E148F01003A8C4A /* ListShopTableViewCell.swift */; };
+		060B93871E0CA24500A662A4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060B93861E0CA24500A662A4 /* User.swift */; };
+		060CDA9C1DF9AB7800F2A477 /* UserTransactionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060CDA9B1DF9AB7800F2A477 /* UserTransactionsTableViewCell.swift */; };
+		060D45071DF4C7D5000417A9 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060D45061DF4C7D5000417A9 /* CalendarViewController.swift */; };
+		060D45091DF4DB43000417A9 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 060D45081DF4DB43000417A9 /* TransactionsViewController.swift */; };
+		060EE61B1E215DC600CFAB12 /* imagens.plist in Resources */ = {isa = PBXBuildFile; fileRef = 060EE61A1E215DC600CFAB12 /* imagens.plist */; };
+		06398C841DEE6E94009B9376 /* ListClientTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06398C831DEE6E94009B9376 /* ListClientTableViewCell.swift */; };
+		0642CC061E08A798005541C1 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0642CC051E08A798005541C1 /* ShopViewController.swift */; };
+		0642CC081E08A7AC005541C1 /* ClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0642CC071E08A7AC005541C1 /* ClientViewController.swift */; };
+		068203171DEB9D7200422E54 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068203161DEB9D7200422E54 /* LoginViewController.swift */; };
+		068203191DEBAA7700422E54 /* SingUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068203181DEBAA7700422E54 /* SingUpViewController.swift */; };
+		0682031C1DEBAF0700422E54 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0682031B1DEBAF0700422E54 /* Alert.swift */; };
+		06A162921DF63A090054DB3A /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A162911DF63A090054DB3A /* ChartViewController.swift */; };
+		06A162941DF63AED0054DB3A /* BarChartFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A162931DF63AED0054DB3A /* BarChartFormatter.swift */; };
+		06CAD6CE1DED00D600D736D2 /* ConfigurationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06CAD6CD1DED00D600D736D2 /* ConfigurationTableViewController.swift */; };
+		06D776291DF0D3F700F92F21 /* ListClientSaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D776281DF0D3F700F92F21 /* ListClientSaleTableViewCell.swift */; };
+		06D7762B1DF0D45000F92F21 /* ListClientSaleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D7762A1DF0D45000F92F21 /* ListClientSaleTableViewController.swift */; };
+		06D7762D1DF0EDF800F92F21 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D7762C1DF0EDF800F92F21 /* DateExtension.swift */; };
+		06D7762F1DF0F48800F92F21 /* imageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D7762E1DF0F48800F92F21 /* imageViewExtension.swift */; };
+		06E413B41DEBBF6700CEF2DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06E413B31DEBBF6700CEF2DF /* GoogleService-Info.plist */; };
+		06E55DF51DEE51A200070D4D /* AddValueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E55DF41DEE51A200070D4D /* AddValueViewController.swift */; };
+		06E55DF71DEE5F7C00070D4D /* NewClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E55DF61DEE5F7C00070D4D /* NewClientViewController.swift */; };
+		06E899291DF95D2200030932 /* UserTransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06E899281DF95D2200030932 /* UserTransactionsViewController.swift */; };
+		06EFAF131E074417003F1B80 /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EFAF121E074417003F1B80 /* Shop.swift */; };
+		06EFAF171E074A89003F1B80 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EFAF161E074A89003F1B80 /* Purchase.swift */; };
+		06EFAF191E0760E2003F1B80 /* UserTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06EFAF181E0760E2003F1B80 /* UserTypeViewController.swift */; };
+		06F9D99F1DEC790300808A51 /* ListClientTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F9D99E1DEC790300808A51 /* ListClientTableViewController.swift */; };
+		55A9780FF3EE3C556D768C4B /* Pods_ShoppingNotebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE19A841CBDF4B2FE2E3926D /* Pods_ShoppingNotebook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		060770811DEB805700E494BB /* ShoppingNotebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingNotebook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		060770841DEB805700E494BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		060770861DEB805700E494BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		060770891DEB805700E494BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0607708B1DEB805700E494BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0607708E1DEB805700E494BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		060770901DEB805700E494BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		060A3BAE1E147F6F003A8C4A /* ShopClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopClient.swift; sourceTree = "<group>"; };
+		060A3BB01E148A90003A8C4A /* ListShopTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListShopTableViewController.swift; sourceTree = "<group>"; };
+		060A3BB21E148F01003A8C4A /* ListShopTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListShopTableViewCell.swift; sourceTree = "<group>"; };
+		060B93861E0CA24500A662A4 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		060CDA9B1DF9AB7800F2A477 /* UserTransactionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTransactionsTableViewCell.swift; sourceTree = "<group>"; };
+		060D45061DF4C7D5000417A9 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		060D45081DF4DB43000417A9 /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		060EE61A1E215DC600CFAB12 /* imagens.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = imagens.plist; sourceTree = "<group>"; };
+		06398C831DEE6E94009B9376 /* ListClientTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListClientTableViewCell.swift; sourceTree = "<group>"; };
+		0642CC051E08A798005541C1 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		0642CC071E08A7AC005541C1 /* ClientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientViewController.swift; sourceTree = "<group>"; };
+		068203161DEB9D7200422E54 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		068203181DEBAA7700422E54 /* SingUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingUpViewController.swift; sourceTree = "<group>"; };
+		0682031B1DEBAF0700422E54 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		06A162911DF63A090054DB3A /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		06A162931DF63AED0054DB3A /* BarChartFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChartFormatter.swift; sourceTree = "<group>"; };
+		06CAD6CD1DED00D600D736D2 /* ConfigurationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationTableViewController.swift; sourceTree = "<group>"; };
+		06D776281DF0D3F700F92F21 /* ListClientSaleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListClientSaleTableViewCell.swift; sourceTree = "<group>"; };
+		06D7762A1DF0D45000F92F21 /* ListClientSaleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListClientSaleTableViewController.swift; sourceTree = "<group>"; };
+		06D7762C1DF0EDF800F92F21 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		06D7762E1DF0F48800F92F21 /* imageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageViewExtension.swift; sourceTree = "<group>"; };
+		06E413B31DEBBF6700CEF2DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		06E55DF41DEE51A200070D4D /* AddValueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddValueViewController.swift; sourceTree = "<group>"; };
+		06E55DF61DEE5F7C00070D4D /* NewClientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewClientViewController.swift; sourceTree = "<group>"; };
+		06E899281DF95D2200030932 /* UserTransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTransactionsViewController.swift; sourceTree = "<group>"; };
+		06EFAF121E074417003F1B80 /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		06EFAF161E074A89003F1B80 /* Purchase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		06EFAF181E0760E2003F1B80 /* UserTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTypeViewController.swift; sourceTree = "<group>"; };
+		06F9D99E1DEC790300808A51 /* ListClientTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListClientTableViewController.swift; sourceTree = "<group>"; };
+		7333919CEE166ABAC4E7C645 /* Pods-ShoppingNotebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingNotebook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingNotebook/Pods-ShoppingNotebook.debug.xcconfig"; sourceTree = "<group>"; };
+		CE19A841CBDF4B2FE2E3926D /* Pods_ShoppingNotebook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShoppingNotebook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA0DFF414698763EB47F0CB6 /* Pods-ShoppingNotebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShoppingNotebook.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShoppingNotebook/Pods-ShoppingNotebook.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A9780FF3EE3C556D768C4B /* Pods_ShoppingNotebook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +101,8 @@
 			children = (
 				060770831DEB805700E494BB /* ShoppingNotebook */,
 				060770821DEB805700E494BB /* Products */,
+				A33913482B61193685408C3D /* Pods */,
+				20405FD98B84D0F8B669C603 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +117,91 @@
 		060770831DEB805700E494BB /* ShoppingNotebook */ = {
 			isa = PBXGroup;
 			children = (
+				06E413B31DEBBF6700CEF2DF /* GoogleService-Info.plist */,
+				0682031A1DEBAEE100422E54 /* Utils */,
+				068203151DEB9D3300422E54 /* Views */,
+				068203141DEB9D2A00422E54 /* Models */,
+				068203111DEB9D1800422E54 /* Controlleres */,
 				060770841DEB805700E494BB /* AppDelegate.swift */,
-				060770861DEB805700E494BB /* ViewController.swift */,
-				060770881DEB805700E494BB /* Main.storyboard */,
 				0607708B1DEB805700E494BB /* Assets.xcassets */,
-				0607708D1DEB805700E494BB /* LaunchScreen.storyboard */,
 				060770901DEB805700E494BB /* Info.plist */,
+				060EE61A1E215DC600CFAB12 /* imagens.plist */,
 			);
 			path = ShoppingNotebook;
+			sourceTree = "<group>";
+		};
+		068203111DEB9D1800422E54 /* Controlleres */ = {
+			isa = PBXGroup;
+			children = (
+				068203161DEB9D7200422E54 /* LoginViewController.swift */,
+				068203181DEBAA7700422E54 /* SingUpViewController.swift */,
+				06F9D99E1DEC790300808A51 /* ListClientTableViewController.swift */,
+				06CAD6CD1DED00D600D736D2 /* ConfigurationTableViewController.swift */,
+				06E55DF41DEE51A200070D4D /* AddValueViewController.swift */,
+				06E55DF61DEE5F7C00070D4D /* NewClientViewController.swift */,
+				06398C831DEE6E94009B9376 /* ListClientTableViewCell.swift */,
+				06D776281DF0D3F700F92F21 /* ListClientSaleTableViewCell.swift */,
+				06D7762A1DF0D45000F92F21 /* ListClientSaleTableViewController.swift */,
+				060D45061DF4C7D5000417A9 /* CalendarViewController.swift */,
+				060D45081DF4DB43000417A9 /* TransactionsViewController.swift */,
+				06A162911DF63A090054DB3A /* ChartViewController.swift */,
+				06A162931DF63AED0054DB3A /* BarChartFormatter.swift */,
+				06E899281DF95D2200030932 /* UserTransactionsViewController.swift */,
+				060CDA9B1DF9AB7800F2A477 /* UserTransactionsTableViewCell.swift */,
+				06EFAF181E0760E2003F1B80 /* UserTypeViewController.swift */,
+				0642CC051E08A798005541C1 /* ShopViewController.swift */,
+				0642CC071E08A7AC005541C1 /* ClientViewController.swift */,
+				060A3BB01E148A90003A8C4A /* ListShopTableViewController.swift */,
+				060A3BB21E148F01003A8C4A /* ListShopTableViewCell.swift */,
+			);
+			path = Controlleres;
+			sourceTree = "<group>";
+		};
+		068203141DEB9D2A00422E54 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				06EFAF121E074417003F1B80 /* Shop.swift */,
+				06EFAF161E074A89003F1B80 /* Purchase.swift */,
+				060B93861E0CA24500A662A4 /* User.swift */,
+				060A3BAE1E147F6F003A8C4A /* ShopClient.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		068203151DEB9D3300422E54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				060770881DEB805700E494BB /* Main.storyboard */,
+				0607708D1DEB805700E494BB /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0682031A1DEBAEE100422E54 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0682031B1DEBAF0700422E54 /* Alert.swift */,
+				06D7762E1DF0F48800F92F21 /* imageViewExtension.swift */,
+				06D7762C1DF0EDF800F92F21 /* DateExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		20405FD98B84D0F8B669C603 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE19A841CBDF4B2FE2E3926D /* Pods_ShoppingNotebook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A33913482B61193685408C3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7333919CEE166ABAC4E7C645 /* Pods-ShoppingNotebook.debug.xcconfig */,
+				DA0DFF414698763EB47F0CB6 /* Pods-ShoppingNotebook.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 060770931DEB805700E494BB /* Build configuration list for PBXNativeTarget "ShoppingNotebook" */;
 			buildPhases = (
+				FFCE8C6D54EA43A09D904664 /* [CP] Check Pods Manifest.lock */,
 				0607707D1DEB805600E494BB /* Sources */,
 				0607707E1DEB805600E494BB /* Frameworks */,
 				0607707F1DEB805600E494BB /* Resources */,
+				DD8EA54F3AF29F27026DD3CF /* [CP] Embed Pods Frameworks */,
+				6CDD7B29346F885566BC8DFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +239,7 @@
 				TargetAttributes = {
 					060770801DEB805600E494BB = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = DCNX526NKV;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +268,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0607708F1DEB805700E494BB /* LaunchScreen.storyboard in Resources */,
+				060EE61B1E215DC600CFAB12 /* imagens.plist in Resources */,
+				06E413B41DEBBF6700CEF2DF /* GoogleService-Info.plist in Resources */,
 				0607708C1DEB805700E494BB /* Assets.xcassets in Resources */,
 				0607708A1DEB805700E494BB /* Main.storyboard in Resources */,
 			);
@@ -131,13 +277,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6CDD7B29346F885566BC8DFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShoppingNotebook/Pods-ShoppingNotebook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD8EA54F3AF29F27026DD3CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShoppingNotebook/Pods-ShoppingNotebook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFCE8C6D54EA43A09D904664 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0607707D1DEB805600E494BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				060770871DEB805700E494BB /* ViewController.swift in Sources */,
+				060B93871E0CA24500A662A4 /* User.swift in Sources */,
+				06EFAF191E0760E2003F1B80 /* UserTypeViewController.swift in Sources */,
+				06EFAF171E074A89003F1B80 /* Purchase.swift in Sources */,
+				060D45071DF4C7D5000417A9 /* CalendarViewController.swift in Sources */,
+				06D776291DF0D3F700F92F21 /* ListClientSaleTableViewCell.swift in Sources */,
+				060CDA9C1DF9AB7800F2A477 /* UserTransactionsTableViewCell.swift in Sources */,
+				06EFAF131E074417003F1B80 /* Shop.swift in Sources */,
+				06CAD6CE1DED00D600D736D2 /* ConfigurationTableViewController.swift in Sources */,
+				06E55DF51DEE51A200070D4D /* AddValueViewController.swift in Sources */,
+				06398C841DEE6E94009B9376 /* ListClientTableViewCell.swift in Sources */,
+				060A3BAF1E147F6F003A8C4A /* ShopClient.swift in Sources */,
+				06A162921DF63A090054DB3A /* ChartViewController.swift in Sources */,
+				06D7762B1DF0D45000F92F21 /* ListClientSaleTableViewController.swift in Sources */,
+				068203171DEB9D7200422E54 /* LoginViewController.swift in Sources */,
+				06E899291DF95D2200030932 /* UserTransactionsViewController.swift in Sources */,
+				060A3BB11E148A90003A8C4A /* ListShopTableViewController.swift in Sources */,
+				068203191DEBAA7700422E54 /* SingUpViewController.swift in Sources */,
+				0682031C1DEBAF0700422E54 /* Alert.swift in Sources */,
+				06A162941DF63AED0054DB3A /* BarChartFormatter.swift in Sources */,
 				060770851DEB805700E494BB /* AppDelegate.swift in Sources */,
+				06E55DF71DEE5F7C00070D4D /* NewClientViewController.swift in Sources */,
+				06D7762D1DF0EDF800F92F21 /* DateExtension.swift in Sources */,
+				0642CC061E08A798005541C1 /* ShopViewController.swift in Sources */,
+				060A3BB31E148F01003A8C4A /* ListShopTableViewCell.swift in Sources */,
+				06D7762F1DF0F48800F92F21 /* imageViewExtension.swift in Sources */,
+				06F9D99F1DEC790300808A51 /* ListClientTableViewController.swift in Sources */,
+				0642CC081E08A7AC005541C1 /* ClientViewController.swift in Sources */,
+				060D45091DF4DB43000417A9 /* TransactionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +370,7 @@
 				060770891DEB805700E494BB /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		0607708D1DEB805700E494BB /* LaunchScreen.storyboard */ = {
@@ -158,6 +379,7 @@
 				0607708E1DEB805700E494BB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -258,9 +480,12 @@
 		};
 		060770941DEB805700E494BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7333919CEE166ABAC4E7C645 /* Pods-ShoppingNotebook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DCNX526NKV;
 				INFOPLIST_FILE = ShoppingNotebook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = carina.pereira.ShoppingNotebook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +495,12 @@
 		};
 		060770951DEB805700E494BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA0DFF414698763EB47F0CB6 /* Pods-ShoppingNotebook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DCNX526NKV;
 				INFOPLIST_FILE = ShoppingNotebook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = carina.pereira.ShoppingNotebook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +527,7 @@
 				060770951DEB805700E494BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
