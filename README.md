@@ -11,4 +11,6 @@ com seus clientes. A única garantia de pagamente é a confiança.
   <img src="https://raw.githubusercontent.com/carinapereira/PenduraAi/master/screenshotclient.png" width="350"/>
   <img src="https://raw.githubusercontent.com/carinapereira/PenduraAi/master/screenshotvendas.png" width="350"/>
   <img src="https://raw.githubusercontent.com/carinapereira/PenduraAi/master/screenshotcadusu.png" width="350"/>
+  <img src="https://raw.githubusercontent.com/carinapereira/PenduraAi/master/screenshotmov.png" width="350"/>
+  <img src="https://raw.githubusercontent.com/carinapereira/PenduraAi/master/screenshotchart.png" width="350"/>
 </p>
