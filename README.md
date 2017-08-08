@@ -5,3 +5,4 @@ Prática comercial ainda muito utilizada nas cidades do interior, onde geralment
 com seus clientes. A única garantia de pagamente é a confiança.
 
 # ScreenShots do APP
+![alt text](https://raw.githubusercontent.com/carinapereira/PenduraAi/master/screenshotlogin.png)
